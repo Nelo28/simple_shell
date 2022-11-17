@@ -72,8 +72,8 @@ void handle_line(char **line, ssize_t read)
 				else if (previous == '|' && next != ' ')
 				{
 					new_line[j++] = '|';
-					new_lin[j++] = ' ';
-					continue
+					new_line[j++] = ' ';
+					continue;
 				}
 			}
 		}
